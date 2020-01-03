@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="892df4e3-7fbd-4c84-8dc7-b7445588111c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vmn7oSNz0hCf7Czer7WRGsu7vC" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sushma Karki\Desktop\ashish-temp-disposable\my-projects\mastering-spring5-practice\src\main\resources" />
+      <recent name="C:\Users\Sushma Karki\Desktop\ashish-temp-disposable\my-projects\mastering-spring5-practice\src\main\java\resources" />
+      <recent name="C:\Users\Sushma Karki\Desktop\ashish-temp-disposable\my-projects\mastering-spring5-practice\src\main\java\com\karkia\spring5\practice" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn site:run" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BusinessServiceMockitoTest.testCalculateSumWithMockito">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.karkia.spring5.practice.App" />
+      <module name="spring5-dependencyInjection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karkia.spring5.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LaunchJavaContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.karkia.spring5.practice.context.LaunchJavaContext" />
+      <module name="spring5-dependencyInjection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karkia.spring5.practice.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LaunchXmlContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.karkia.spring5.practice.context.LaunchXmlContext" />
+      <module name="spring5-dependencyInjection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karkia.spring5.practice.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessServiceJavaContextTest.testCalculateSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-dependencyInjection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karkia.spring5.practice.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.karkia.spring5.practice.business" />
+      <option name="MAIN_CLASS_NAME" value="com.karkia.spring5.practice.business.BusinessServiceJavaContextTest" />
+      <option name="METHOD_NAME" value="testCalculateSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessServiceMockitoTest.testCalculateSumWithMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-dependencyInjection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karkia.spring5.practice.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.karkia.spring5.practice.business" />
+      <option name="MAIN_CLASS_NAME" value="com.karkia.spring5.practice.business.BusinessServiceMockitoTest" />
+      <option name="METHOD_NAME" value="testCalculateSumWithMockito" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BusinessServiceMockitoTest.testCalculateSumWithMockito" />
+        <item itemvalue="JUnit.BusinessServiceJavaContextTest.testCalculateSum" />
+        <item itemvalue="Application.LaunchXmlContext" />
+        <item itemvalue="Application.LaunchJavaContext" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="892df4e3-7fbd-4c84-8dc7-b7445588111c" name="Default Changelist" comment="" />
+      <created>1577866972205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577866972205</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="356" y="0" width="570" height="689" key="#LaunchJavaContext" timestamp="1577879889123">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="356" y="0" width="570" height="689" key="#LaunchJavaContext/0.0.1280.689@0.0.1280.689" timestamp="1577879889123" />
+    <state x="233" y="5" key="#Project_Structure" timestamp="1577932488482">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="5" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1577932488482" />
+    <state x="446" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1577879141546">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="446" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1577879141546" />
+    <state x="372" y="122" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1577932504511">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="372" y="122" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.689@0.0.1280.689" timestamp="1577932504511" />
+    <state x="347" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577928162894">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="347" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.689@0.0.1280.689" timestamp="1577928162894" />
+    <state x="421" y="101" key="FileChooserDialogImpl" timestamp="1577936111564">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="101" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1577936111564" />
+    <state width="1281" height="157" key="GridCell.Tab.0.bottom" timestamp="1577937278479">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="157" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1577937278479" />
+    <state width="1281" height="157" key="GridCell.Tab.0.center" timestamp="1577937278479">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="157" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1577937278479" />
+    <state width="1281" height="157" key="GridCell.Tab.0.left" timestamp="1577937278479">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="157" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1577937278479" />
+    <state width="1281" height="157" key="GridCell.Tab.0.right" timestamp="1577937278479">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="157" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1577937278479" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1577879217741">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1577879217741" />
+    <state x="405" y="30" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577932507421">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="405" y="30" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.689@0.0.1280.689" timestamp="1577932507421" />
+    <state x="44" y="49" width="1099" height="626" key="new project wizard" timestamp="1577936312195">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="44" y="49" width="1099" height="626" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1577936312195" />
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1577927498228">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1577927498228" />
+  </component>
+</project>

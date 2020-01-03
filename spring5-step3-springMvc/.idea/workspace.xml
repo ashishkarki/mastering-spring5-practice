@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82ee046e-e606-47bb-81d4-0191e696bd3e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="printErrorStackTraces" value="true" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vp3fVtYT5QLXUAEjIpUUbowEjA" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.pom" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.44624448" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.karkia.spring5.practice" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn tomcat7:run" />
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82ee046e-e606-47bb-81d4-0191e696bd3e" name="Default Changelist" comment="" />
+      <created>1577936312717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577936312717</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="5" key="#Notifications" timestamp="1577936719689">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="5" key="#Notifications/0.0.1280.689@0.0.1280.689" timestamp="1577936719689" />
+    <state x="233" y="5" key="#Project_Structure" timestamp="1577942380374">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="5" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1577942380374" />
+    <state x="446" y="44" key="#com.intellij.ide.util.MemberChooser" timestamp="1577947460959">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="446" y="44" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1577947460959" />
+    <state x="433" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1577947369198">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="433" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.689@0.0.1280.689" timestamp="1577947369198" />
+    <state x="549" y="53" key="FileChooserDialogImpl" timestamp="1577942563114">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="549" y="53" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1577942563114" />
+    <state width="1281" height="157" key="GridCell.Tab.0.bottom" timestamp="1577956502255">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="157" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1577956502255" />
+    <state width="1281" height="157" key="GridCell.Tab.0.center" timestamp="1577956502255">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="157" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1577956502255" />
+    <state width="1281" height="157" key="GridCell.Tab.0.left" timestamp="1577956502255">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="157" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1577956502255" />
+    <state width="1281" height="157" key="GridCell.Tab.0.right" timestamp="1577956502255">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="157" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1577956502255" />
+    <state x="171" y="1" key="Maven.ArtifactSearchDialog" timestamp="1577938242483">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="171" y="1" key="Maven.ArtifactSearchDialog/0.0.1280.689@0.0.1280.689" timestamp="1577938242483" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1577942609774">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1577942609774" />
+    <state x="319" y="171" key="com.intellij.ide.util.TipDialog" timestamp="1577955708117">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="319" y="171" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1577955708117" />
+    <state x="375" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577938399949">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="375" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.689@0.0.1280.689" timestamp="1577938399949" />
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1577938838979">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1577938838979" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1577937030029">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1577937030029" />
+  </component>
+</project>

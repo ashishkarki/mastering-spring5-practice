@@ -12,10 +12,10 @@ public class User {
     @Size(min = 6, message = "enter at least 6 characters please")
     private String userId;
 
-    @Size(min = 8, message = "enter at least 6 characters please")
+    @Size(min = 8, message = "enter at least 8 characters please")
     private String password;
 
-    @Size(min = 8, message = "enter at least 6 characters please")
+    @Size(min = 8, message = "enter at least 8 characters please")
     private String password2;
 
     public User() {

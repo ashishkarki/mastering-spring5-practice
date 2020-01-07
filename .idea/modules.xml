@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/mastering-spring5-practice.iml" filepath="$PROJECT_DIR$/.idea/mastering-spring5-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5-step3-springMvc/spring5-step3-springMvc.iml" filepath="$PROJECT_DIR$/spring5-step3-springMvc/spring5-step3-springMvc.iml" />
+    </modules>
+  </component>
+</project>

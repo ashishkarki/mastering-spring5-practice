@@ -30,6 +30,14 @@ public class UserController {
         return "redirect:list-users";
     }
 
+    @RequestMapping(value = "/create-user-with-validation", method = RequestMethod.GET)
+    public String showCreateUserPageWithValidation(ModelMap model) {
+        // used to set up the model with an empty form-backing object
+        model.addAttribute("user", new User());
+
+        return "user";
+    }
+
     @RequestMapping(value = "create-user-with-validation", method = RequestMethod.POST)
     public String addTodoWithValidation(@Valid User user, BindingResult result) {
         if (result.hasErrors()) {

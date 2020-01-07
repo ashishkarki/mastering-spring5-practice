@@ -29,15 +29,15 @@
           class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
         <property name="defaultLocale" value="en"/>
     </bean>
-
+-->
     <mvc:interceptors>
         <bean id="localeChangeInterceptor"
               class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
             <property name="paramName" value="language"/>
         </bean>
-        <bean
-                class="com.mastering.spring.springmvc.controller.interceptor.HandlerTimeLoggingInterceptor"/>
-    </mvc:interceptors>-->
+
+        <bean class="com.karkia.spring5.practice.controller.interceptor.HandlerTimeLoggingInterceptor"/>
+    </mvc:interceptors>
 
     <mvc:annotation-driven/>
 

@@ -6,7 +6,10 @@ import org.springframework.web.servlet.mvc.AbstractController;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class WelcomeController extends AbstractController {
+/**
+ * To demo how resource bundling and locale settings can be made to work with spring mvc
+ */
+public class HomeController extends AbstractController {
 
     @Override
     protected ModelAndView handleRequestInternal(

@@ -1,4 +1,4 @@
-package org.baeldung.web.interceptor;
+package com.karkia.spring5.practice.controller.interceptor;
 
 import com.google.common.base.Strings;
 import org.slf4j.Logger;

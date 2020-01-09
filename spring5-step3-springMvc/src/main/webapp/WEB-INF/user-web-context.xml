@@ -17,19 +17,31 @@
         </property>
     </bean>
 
-    <!--<mvc:resources mapping="/webjars/**" location="/webjars/"/>
-
-    <bean id="messageSource"
-          class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-        <property name="basename" value="classpath:messages"/>
-        <property name="defaultEncoding" value="UTF-8"/>
+    <!-- support for locale -->
+    <bean id="localeResolver"
+          class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+        <property name="defaultLocale" value="en"/>
+        <property name="cookieName" value="userLocaleCookie"/>
+        <property name="cookieMaxAge" value="7200"/>
     </bean>
 
-    <bean id="localeResolver"
+    <!--<bean id="localeResolver"
           class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
         <property name="defaultLocale" value="en"/>
+    </bean>-->
+
+    <!-- Register the welcome.properties -->
+    <bean id="messageSource"
+          class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename">
+            <value>welcome</value>
+        </property>
     </bean>
--->
+
+    <!-- Register the bean -->
+    <bean class="com.karkia.spring5.practice.controller.HomeController"/>
+    <!-- End of support for locale -->
+
     <mvc:interceptors>
         <bean id="localeChangeInterceptor"
               class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
@@ -39,6 +51,7 @@
         <bean class="com.karkia.spring5.practice.controller.interceptor.HandlerTimeLoggingInterceptor"/>
     </mvc:interceptors>
 
+    <mvc:resources mapping="/webjars/**" location="/webjars/"/>
     <mvc:annotation-driven/>
 
 </beans>

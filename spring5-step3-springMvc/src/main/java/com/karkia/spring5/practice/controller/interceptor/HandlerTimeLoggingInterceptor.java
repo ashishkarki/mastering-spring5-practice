@@ -5,6 +5,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -37,7 +38,8 @@ public class HandlerTimeLoggingInterceptor extends HandlerInterceptorAdapter {
             throws Exception {
         var startTime = (Long) request.getAttribute("startTime");
         var endTime = (Long) request.getAttribute("endTime");
-
+        response.setHeader("executionTime", String.valueOf(endTime - startTime));
+        response.addCookie(new Cookie("executionTime", String.valueOf(endTime - startTime)));
         response.addHeader("executionTime", String.valueOf(endTime - startTime));
     }
 }

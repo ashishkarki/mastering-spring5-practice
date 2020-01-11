@@ -44,7 +44,8 @@ public class UserController {
             return "user";
         }
 
-        logger.info("user details with validation" + user);
+        logger.info("user details with validation: " + user
+                + "\n results: " + result.toString());
 
         return "redirect: list-users";
     }

@@ -21,6 +21,14 @@ public class User {
     public User() {
     }
 
+    public User(String guid, String name, String userId, String password, String password2) {
+        this.guid = guid;
+        this.name = name;
+        this.userId = userId;
+        this.password = password;
+        this.password2 = password2;
+    }
+
     // custom validation
     @AssertTrue(message = "Passwords do not match!!!")
     private boolean isValidPassword() {

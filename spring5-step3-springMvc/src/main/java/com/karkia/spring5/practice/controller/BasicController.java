@@ -1,5 +1,7 @@
 package com.karkia.spring5.practice.controller;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,10 +12,9 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class BasicController {
 
-    @RequestMapping(value = "/welcome")
-    // @RequestBody
-    public String welcome() {
-        return "Welcome to Spring MVC world!!";
+    @RequestMapping(value = "/welcome", method = RequestMethod.GET, produces = "text/plain")
+    public ResponseEntity<String> welcome() {
+        return new ResponseEntity<>("Welcome to Spring MVC world!!", HttpStatus.OK);
     }
 
     @RequestMapping(value = "/welcome-view")

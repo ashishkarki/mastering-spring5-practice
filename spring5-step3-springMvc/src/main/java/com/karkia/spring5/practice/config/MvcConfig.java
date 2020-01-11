@@ -7,6 +7,11 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.resource.EncodedResourceResolver;
+import org.springframework.web.servlet.resource.GzipResourceResolver;
+import org.springframework.web.servlet.resource.PathResourceResolver;
+
+import java.nio.file.Path;
 
 @EnableWebMvc
 @Configuration
@@ -54,7 +59,11 @@ public class MvcConfig implements WebMvcConfigurer {
                 .addResourceLocations("classpath:/resources/css/"); // doesn't work
 
         registry.addResourceHandler("/styles/**")
-                .addResourceLocations("/WEB-INF/resources/css/"); // this works
+                .addResourceLocations("/WEB-INF/resources/css/") // this works
+                .setCachePeriod(365 * 24 * 60 * 60)
+                .resourceChain(true)// allows different chaining of resource delivery
+                .addResolver(new PathResourceResolver()) //default resolver if Gzip is not requested
+                .addResolver(new EncodedResourceResolver()); // return zipped version if asked by browser
     }
 
 }

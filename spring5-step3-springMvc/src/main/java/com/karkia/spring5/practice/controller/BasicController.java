@@ -21,6 +21,11 @@ public class BasicController {
         return "welcome";
     }
 
+    @RequestMapping(value = "resourceTest")
+    public String resourceTest() {
+        return "resourceTest";
+    }
+
     @RequestMapping(value = "/welcome-model-map", method = RequestMethod.GET)
     public String welcomeViewModel(ModelMap model) {
         model.put("name", "AKarki");

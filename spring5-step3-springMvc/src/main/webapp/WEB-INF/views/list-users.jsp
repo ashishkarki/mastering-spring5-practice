@@ -3,8 +3,13 @@ List of all users....
 < hr />
 
 <%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
+<head>
+    <link href="<c:url value="/static-resources/css/my-style.css" />" rel="stylesheet">
+    <title>List of users</title>
+</head>
 <body>
 <h1>Spring MVC internationalization example</h1>
 

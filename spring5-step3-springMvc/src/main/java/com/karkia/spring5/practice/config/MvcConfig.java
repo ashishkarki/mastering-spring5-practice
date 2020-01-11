@@ -5,6 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @EnableWebMvc
@@ -43,4 +44,17 @@ public class MvcConfig implements WebMvcConfigurer {
     public void addInterceptors(final InterceptorRegistry registry) {
         registry.addInterceptor(new LoggerInterceptor());
     }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/src/main/webapp/static-resources/**")
+                .addResourceLocations("/src/main/webapp/static-resources/"); // doesn't work
+
+        registry.addResourceHandler("/resources/**")
+                .addResourceLocations("classpath:/resources/css/"); // doesn't work
+
+        registry.addResourceHandler("/styles/**")
+                .addResourceLocations("/WEB-INF/resources/css/"); // this works
+    }
+
 }

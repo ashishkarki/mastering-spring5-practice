@@ -35,4 +35,19 @@ public class UserControllerTest {
                 .andExpect(model()
                         .attributeHasFieldErrorCode("user", "name", "Size"));
     }
+
+    @Test
+    public void basicTest_WithAllValidFields_Works() throws Exception {
+        mockMvc.perform(
+                post("/create-user-with-validation")
+                        .param("name", "ashish123")
+                        .param("userId", "ashish123")
+                        .param("password", "ashish123")
+                        .param("password2", "ashish123")
+                        .accept(MediaType.parseMediaType("application/html;charset=UTF-8")
+                        ))
+                .andDo(print())
+                .andExpect(status().isFound())
+                .andExpect(model().errorCount(0));
+    }
 }

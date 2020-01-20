@@ -7,10 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring5-step3-springMvc" />
+        <module name="springboot2-gettingStarted" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring5-step3-springMvc" target="10" />
+      <module name="springboot2-gettingStarted" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot2-gettingStarted" options="-parameters" />
+    </option>
   </component>
 </project>

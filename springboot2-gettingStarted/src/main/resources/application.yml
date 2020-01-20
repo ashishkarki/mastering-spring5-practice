@@ -1,0 +1,4 @@
+application:
+  isThisWorking: true
+  helloMessage: hello there
+  counter: 100

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/mastering-spring5-practice.iml" filepath="$PROJECT_DIR$/.idea/mastering-spring5-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring5-step3-springMvc/spring5-step3-springMvc.iml" filepath="$PROJECT_DIR$/spring5-step3-springMvc/spring5-step3-springMvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot2-gettingStarted/springboot2-gettingStarted.iml" filepath="$PROJECT_DIR$/springboot2-gettingStarted/springboot2-gettingStarted.iml" />
     </modules>
   </component>
 </project>

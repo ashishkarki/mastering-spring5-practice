@@ -18,6 +18,7 @@ public class UserControllerTest {
     @Before
     public void setupEveryTime() {
         mockMvc = MockMvcBuilders.standaloneSetup(new UserController()).build();
+        String[] s = new String[5];
     }
 
     @Test

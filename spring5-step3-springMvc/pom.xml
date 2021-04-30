@@ -34,7 +34,7 @@
     <name>spring5-step3-springMvc Maven Webapp</name>
 
     <properties>
-        <spring.version>5.1.3.RELEASE</spring.version>
+        <spring.version>5.1.18.RELEASE</spring.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
